@@ -11,8 +11,9 @@ This Arkanoid game was developed as part of an Object-Oriented Programming cours
 
 ## Design Patterns
 
-### Builder Design Pattern
-The Builder design pattern is employed to construct various game components in a step-by-step process, providing flexibility and ease of use. Each builder class is responsible for creating specific game elements, such as balls, blocks, borders, and paddles. This approach ensures more readable and maintainable code and allows easy adjustments to the properties of game objects during their construction.
+### Decorator Design Pattern
+The decorator design pattern was used to add new functionalities to existing Animation objects.
+ The decorator pattern allows for dynamically adding new functionalities to existing objects without changing their structure, while keeping the code clean and maintainable.
 
 ### Observer Design Pattern
 The Observer design pattern was utilized to manage events between different game objects. Game objects act as Observables, while listener classes function as Observers, subscribing to game events such as block removal, ball updates, and score changes. This design pattern supports a modular code structure, allowing new event listeners to be added without altering the original game objects.
